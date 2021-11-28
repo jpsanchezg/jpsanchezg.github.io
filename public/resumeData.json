@@ -1,27 +1,20 @@
 {
   "main": {
-    "name": "Tim Baker",
-    "occupation": "(Your Occupation Here)",
-    "description": "Here will be your description. Use this to describe what you do or whatever you feel best describes yourself to a potential employer",
+    "name": "Juan Pablo Sanchez",
+    "occupation": "Systems  Engineer",
+    "description": "currently studying systems engineering and i am in my 7th semester with the desire to continue in the world of development.",
     "image": "profilepic.jpg",
-    "bio": "Use this bio section as your way of describing yourself and saying what you do, what technologies you like to use or feel most comfortable with, describing your personality, or whatever else you feel like throwing in.",
+    "bio": "I am a person fond of learning more and more things every day,I love everything related to technology and the advancement of this same, I am from Bogota Colombia, I am currently studying systems engineering at the Javeriana University, I love to program things in c++ and keep learning new things from the web environment.",
     "contactmessage": "Here is where you should write your message to readers to have them get in contact with you.",
-    "email": "youremailhere@gmail.com",
-    "phone": "555-555-5555",
+    "email": "juanpablosanchezgaitan@yahoo.com",
+    "phone": "301-433-0305",
     "address": {
-      "street": "(Your Street)",
-      "city": "(Your City)",
-      "state": "(Your State)",
-      "zip": "(Your Zip/Postal Code)"
+      "city": "Bogota",
+      "Country": "Colombia"
     },
     "website": "http://www.timbakerdev.com",
     "resumedownload": "http://timbakerdev.com",
     "social": [
-      {
-        "name": "facebook",
-        "url": "http://facebook.com/tim.baker.906",
-        "className": "fa fa-facebook"
-      },
       {
         "name": "twitter",
         "url": "http://twitter.com",
@@ -60,24 +53,10 @@
         "description": "Describe your experience at school, what you learned, what useful skills you have acquired etc."
       }
     ],
-    "work": [
-      {
-        "company": "Awesome Design Studio",
-        "title": "Senior UX God ",
-        "years": "March 2010 - Present",
-        "description": "Describe work, special projects, notable achievements, what technologies you have been working with, and anything else that would be useful for an employer to know."
-      },
-      {
-        "company": "Super Cool Studio",
-        "title": "Junior bug fixer",
-        "years": "March 2007 - February 2010",
-        "description": "Describe work, special projects, notable achievements, what technologies you have been working with, and anything else that would be useful for an employer to know."
-      }
-    ],
     "skills": [
       {
-        "name": "Git",
-        "level": "60%"
+        "name": "C++",
+        "level": "70%"
       },
       {
         "name": "Illustrator",
@@ -85,30 +64,30 @@
       },
       {
         "name": "ReactJs",
+        "level": "60%"
+      },
+      {
+        "name": "Firebase",
         "level": "50%"
       },
       {
-        "name": "CSS",
-        "level": "90%"
+        "name": "JAVA",
+        "level": "75%"
       },
       {
-        "name": "HTML5",
-        "level": "80%"
-      },
-      {
-        "name": "VueJs",
-        "level": "50%"
+        "name": "Javscript",
+        "level": "60%"
       },
       {
         "name": "MongoDB",
-        "level": "80%"
+        "level": "65%"
       }
     ]
   },
   "portfolio": {
     "projects": [
       {
-        "title": "Canadian Wanderlust",
+        "title": "UnnU",
         "category": "My Travel Blog for my post-university travels",
         "image": "canadian-wanderlust.jpg",
         "url": "https://www.canadianwanderlust.com"
@@ -136,18 +115,6 @@
         "category": "(MVP Only) A React and Meteor based chat University project.",
         "image": "smirkspace.jpg",
         "url": "http://www.smirkspace.com"
-      }
-    ]
-  },
-  "testimonials": {
-    "testimonials": [
-      {
-        "text": "Here you should write some nice things that someone has said about you. No lies though, employers can tell when you are lying.",
-        "user": "Kareem Abdul Jabbar"
-      },
-      {
-        "text": "That Tim Baker must be one of the most brilliant developers I've ever met! It is amazing that nobody has hired him yet. Hey you, you should hire this guy, he may be fresh out of University and have zero on the job experience but I am confident that he will be one of your best developers in no time!",
-        "user": "Steve Wozniak... impersonator"
       }
     ]
   }
