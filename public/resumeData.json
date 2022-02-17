@@ -7,7 +7,7 @@
     "bio": "I am a person fond of learning more and more things every day,I love everything related to technology and the advancement of this same, I am from Bogota Colombia, I am currently studying systems engineering at the Javeriana University, I love to program things in c++ and keep learning new things from the web environment.",
     "contactmessage": "Here is where you should write your message to readers to have them get in contact with you.",
     "email": "juanpablosanchezgaitan@yahoo.com",
-    "phone": "301-433-0305",
+    "phone": "+57 301-433-0305",
     "address": {
       "city": "Bogota",
       "Country": "Colombia"
@@ -40,16 +40,10 @@
     "skillmessage": "Here you can create a short write-up of your skills to show off to employers",
     "education": [
       {
-        "school": "University?",
-        "degree": "Masters in Beer tasting",
-        "graduated": "April 2007",
-        "description": "Describe your experience at school, what you learned, what useful skills you have acquired etc."
-      },
-      {
-        "school": "School #1 Maybe College?",
-        "degree": "What did you study 101",
-        "graduated": "March 2003",
-        "description": "Describe your experience at school, what you learned, what useful skills you have acquired etc."
+        "school": "Pontificia Universidad Javeriana",
+        "degree": "Systems Engineering",
+        "graduated": "November 2023",
+        "description": "It was a very cool time because I learned a lot of things and how applications and things that we use all day every day are created."
       }
     ],
     "skills": [
@@ -70,15 +64,19 @@
         "level": "50%"
       },
       {
-        "name": "JAVA",
+        "name": "Java",
         "level": "75%"
+      },
+      {
+        "name": "Node js",
+        "level": "65%"
       },
       {
         "name": "Javscript",
         "level": "60%"
       },
       {
-        "name": "MongoDB",
+        "name": "Python",
         "level": "65%"
       }
     ]
@@ -88,19 +86,19 @@
       {
         "title": "UnnU",
         "category": "Dating app ",
-        "image": "canadian-wanderlust.jpg",
+        "image": "unnu.png",
         "url": "https://github.com/jpsanchezg/ingesoft-project"
       },
       {
         "title": "Uno",
         "category": "Videogame",
-        "image": "fury-fighting-gear.jpg",
+        "image": "unologo.png",
         "url": "https://jpsanchezg.github.io/Juego-de-cartas-UNO/MANUAL/index.html"
       },
       {
         "title": "Ludo game",
         "category": "Videogame",
-        "image": "original-thai-food.jpg",
+        "image": "ludo.png",
         "url": "https://github.com/jpsanchezg/Ludo-Game-cplus-plus"
       },
       {
