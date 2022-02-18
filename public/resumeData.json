@@ -104,9 +104,30 @@
       {
         "title": "Tu inventario",
         "category": "Inventory App",
-        "image": "resume-website.jpg",
+        "image": "tuinv.jpg",
         "url": "https://github.com/jpsanchezg/App-gestion-inventario"
+      }
+    ],
+    "hackathons": [
+      {
+        "title": "Shell hacks",
+        "category": "Crypto app",
+        "image": "shellhacks.png",
+        "url": "https://github.com/jpsanchezg/crypto-app"
+      },
+      {
+        "title": "Hoya hacks",
+        "category": "Homeless helper",
+        "image": "hoyahacks.png",
+        "url": "https://devpost.com/software/donateu"
+      },
+      {
+        "title": "UofThacks",
+        "category": "Varient challenge (winner)",
+        "image": "uofthacks.png",
+        "url": "https://devpost.com/software/gene-mutation-report-assisstant"
       }
     ]
   }
+  
 }

@@ -1,6 +1,17 @@
 import React, { Component } from 'react';
+import Swal from 'sweetalert2';
+import emailjs from 'emailjs-com';
+import{ init } from '@emailjs/browser';
+init("user_8U6FLi1UshWAFJKiQWKsW");
 
+
+const SERVICE_ID = "service_2jmhj79";
+const TEMPLATE_ID = "template_0lio3mq";
+const USER_ID = "user_8U6FLi1UshWAFJKiQWKsW";
 class Contact extends Component {
+
+
+
    render() {
 
       if (this.props.data) {
@@ -13,6 +24,27 @@ class Contact extends Component {
          var email = this.props.data.email;
          var message = this.props.data.contactmessage;
       }
+
+
+      const handleOnSubmit = (e) => {
+         e.preventDefault();
+         emailjs.sendForm(SERVICE_ID, TEMPLATE_ID, e.target, USER_ID)
+            .then((result) => {
+               console.log(result.text);
+               Swal.fire({
+                  icon: 'success',
+                  title: 'Message Sent Successfully'
+               })
+            }, (error) => {
+               console.log(error.text);
+               Swal.fire({
+                  icon: 'error',
+                  title: 'Ooops, something went wrong',
+                  text: error.text,
+               })
+            });
+         e.target.reset()
+      };
 
       return (
          <section id="contact">
@@ -36,7 +68,7 @@ class Contact extends Component {
             <div className="row">
                <div className="eight columns">
 
-                  <form action="" method="post" id="contactForm" name="contactForm">
+                  <form action="" id="contactForm" name="contactForm" onSubmit={handleOnSubmit}>
                      <fieldset>
 
                         <div>
@@ -60,10 +92,7 @@ class Contact extends Component {
                         </div>
 
                         <div>
-                           <button className="submit">Submit</button>
-                           <span id="image-loader">
-                              <img alt="" src="images/loader.gif" />
-                           </span>
+                           <button type="submit" className="submit">Submit</button>
                         </div>
                      </fieldset>
                   </form>
