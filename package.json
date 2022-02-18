@@ -1,7 +1,7 @@
 {
   "homepage": "https://jpsanchezg.github.io",
-  "name": "juanpabloportfolio",
-  "version": "0.2.0",
+  "name": "personalportfolio",
+  "version": "0.1.0",
   "private": true,
   "dependencies": {
     "@emailjs/browser": "^3.4.0",
