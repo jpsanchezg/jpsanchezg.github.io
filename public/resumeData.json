@@ -2,12 +2,11 @@
   "main": {
     "name": "Juan Pablo Sanchez",
     "occupation": "Systems  Engineer",
-    "description": "currently studying systems engineering and i am in my 7th semester with the desire to continue in the world of development.",
+    "description": "currently studying systems engineering and i am in my 9 semester with the desire to continue in the world of development.",
     "image": "profilepic.jpeg",
     "bio": "I am a person fond of learning more and more things every day,I love everything related to technology and the advancement of this same, I am from Bogota Colombia, I am currently studying systems engineering at the Javeriana University, I love to program things in c++ and keep learning new things from the web environment.",
     "contactmessage": "Here is where you should write your message to readers to have them get in contact with you.",
     "email": "juanpablosanchezgaitan@yahoo.com",
-    "phone": "+57 301-433-0305",
     "address": {
       "city": "Bogota",
       "Country": "Colombia"
@@ -42,7 +41,7 @@
       {
         "school": "Pontificia Universidad Javeriana",
         "degree": "Systems Engineering",
-        "graduated": "November 2023",
+        "graduated": "March 2024",
         "description": "It was a very cool time because I learned a lot of things and how applications and things that we use all day every day are created."
       }
     ],
@@ -52,8 +51,8 @@
         "level": "70%"
       },
       {
-        "name": "Illustrator",
-        "level": "55%"
+        "name": "Android",
+        "level": "75%"
       },
       {
         "name": "ReactJs",
@@ -72,7 +71,7 @@
         "level": "65%"
       },
       {
-        "name": "Javscript",
+        "name": "Angular",
         "level": "60%"
       },
       {
@@ -106,6 +105,11 @@
         "category": "Inventory App",
         "image": "tuinv.jpg",
         "url": "https://github.com/jpsanchezg/App-gestion-inventario"
+      },{
+        "title": "Pet Planet",
+        "category": "Service app ",
+        "image": "petwPlanet.png",
+        "url": "https://github.com/jpsanchezg/petplanet"
       }
     ],
     "hackathons": [

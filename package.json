@@ -2,7 +2,7 @@
   "homepage": "https://jpsanchezg.github.io",
   "name": "jpsanchezg",
   "version": "0.1.0",
-  "private": true,
+  "private": false,
   "dependencies": {
     "jquery": "^3.2.1",
     "npm": "^8.5.1",
