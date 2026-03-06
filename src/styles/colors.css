@@ -1,0 +1,119 @@
+:root {
+  /* Colores principales */
+  --primary-color: #c8f261;
+  --primary-color-hover: #c7e1ff;
+  --primary-active-color-gradient: #1e8cfa;
+  --secondary-color: #faffe6;
+  --primary-color-dark: #1a202c;
+  /* Colores de estado */
+  --success-color: #28a745;
+  --success-bg: #d4edda;
+  --danger-color: #dc3545;
+  --danger-bg: #f8d7da;
+  --warning-color: #ffc107;
+  --warning-bg: #fff3cd;
+  --disabled-color: #bdbdbd;
+
+  /* Colores específicos para login */
+  --login-green: #c8f261;
+  --login-text-white: #ffffff;
+  --login-text-light: #ececec;
+
+  /* Fondos */
+  --bg-primary: #1a202c;
+  --bg-secondary: #f8f9fa;
+  --bg-hover: #f0f8ff;
+  --bg-selected: #e3f2fd;
+  --bg-light: #f8f9fa;
+  --bg-medium: #e9ecef;
+  --bg-blue-light: #f0f8ff;
+  --bg-blue-medium: #e3f2fd;
+  --bg-dark-card: #172642;
+  --bg-blue-dark: #17264212;
+
+  /* Bordes */
+  --border-color: #e9ecef;
+  --border-color-light: #e9ecef;
+  --border-color-medium: #dee2e6;
+  --border-hover: var(--primary-color);
+
+  /* Textos */
+  --text-primary: #172642;
+  --text-secondary: #c8f261;
+  /** Etiquetas de formularios y textos secundarios legibles (alto contraste sobre fondo claro) */
+  --text-label: #374151;
+  --text-tertiary: #97c1db;
+  --text-muted: #adb5bd;
+  --text-light: #6c757d;
+  --text-dark: #1a1a1a;
+  --text-medium: #2c3e50;
+  --text-disabled: #bdbdbd;
+
+  /* Sombras */
+  --box-shadow: rgba(19, 66, 121, 0.5) 0 1px 15px;
+  --shadow: 0 2px 12px rgba(0, 0, 0, 0.06);
+  --shadow-hover: 0 4px 20px rgba(0, 0, 0, 0.1);
+  --shadow-light: rgba(0, 0, 0, 0.06);
+  --shadow-medium: rgba(0, 123, 255, 0.15);
+  --shadow-dark: rgba(0, 123, 255, 0.3);
+  --shadow-blue-light: rgba(0, 123, 255, 0.1);
+  --shadow-blue-medium: rgba(0, 123, 255, 0.2);
+  --shadow-blue-dark: rgba(0, 123, 255, 0.3);
+  --shadow-button-hover: rgba(0, 0, 0, 0.1);
+  --shadow-card-hover: rgba(0, 0, 0, 0.1);
+
+  /* Radios */
+  --radius: 12px;
+  --radius-sm: 8px;
+  --radius-xs: 6px;
+  --radius-small: 4px;
+  --radius-medium: 6px;
+  --radius-large: 8px;
+  --radius-xl: 10px;
+  --radius-xxl: 12px;
+
+  /* Transiciones */
+  --transition: all 0.2s ease;
+  --transition-ease: all 0.2s ease;
+  --transition-ease-long: all 0.3s ease;
+
+  /* Otros */
+  --select-hover: #eed7d7;
+  --button-text-color-hover: #f5f5f5;
+
+  /* Colores específicos de la aplicación */
+  --bg-app: #172642;
+  --white: #ffffff;
+  --light-white: #ececec;
+  --light-white-2: #f7f7f7;
+  --light-white-3: #f5f7fa;
+  --black: #000000;
+  --text-normal: #172642;
+  --interactive-text: #9b9b9b;
+  --primary-app: #c8f261;
+  --light-primary: #f09b9c;
+  --secondary-app: #faffe6;
+  --secondary-semi-light: #1e8cfa;
+  --secondary-light: #9ecbff7a;
+  --secondary-dark: #00336d;
+  --third-color: #97c1db;
+  --third-dark: #2a3d59;
+  --warning-app: #ffc107;
+  --danger-app: #dc3545;
+  --success-app: #28a745;
+  --light-black: #0101018a;
+  --grey: #a3a3a3;
+  --dark-grey: #4f4f4f;
+  --surface-container-highest: #e8f0fe;
+  --outline: #c8f261;
+  --secondary-container: #dde7f6;
+  --light-grey: #e0e0e0;
+  --extra-light-gray: #f9f9f9;
+  --bluetooth-1: #48627d;
+  --bluetooth-2: #3a516c;
+  --bluetooth-3: #2a3d59;
+  --light-white-app: #e7e7e7ee;
+  --success-green: #00c851;
+  --error-red: #dc3545;
+  --title: #faffe6;
+}

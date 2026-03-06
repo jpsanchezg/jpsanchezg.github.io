@@ -1,0 +1,20 @@
+<button type="button" mat-button class="button" *ngIf="mode !== 'radio'" [ngClass]="{
+    'button-primary': type === 'primary' && mode === 'normal',
+    'button-secondary': type === 'secondary' && mode === 'normal',
+    'button-secondary-outline': type === 'secondary-outline' && mode === 'normal',
+    'button-danger': type === 'danger' && mode === 'normal',
+    'button-reset': type === 'reset' && mode === 'normal',
+    'button-create': type === 'create',
+    'button-success': type === 'success' && mode === 'normal',
+    'button-login': type === 'login' && mode === 'normal',
+    'bottom-right': position === 'bottom-right',
+    'bottom-left': position === 'bottom-left',
+    'top-right': position === 'top-right',
+    'top-left': position === 'top-left',
+    'button-disabled': disabled,
+    'icon-only': icon && !text
+  }" [disabled]="disabled" (click)="handleClick()">
+    <mat-icon *ngIf="icon && (!iconPosition || iconPosition === 'left')" class="icon">{{ icon }}</mat-icon>
+    <span *ngIf="text">{{ text }}</span>
+    <mat-icon *ngIf="icon && iconPosition === 'right'" class="icon">{{ icon }}</mat-icon>
+</button>

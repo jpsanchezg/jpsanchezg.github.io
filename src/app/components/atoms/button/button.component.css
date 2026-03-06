@@ -1,0 +1,412 @@
+/* Botón Base */
+.button {
+  border-radius: 8px;
+  box-sizing: border-box;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Inter UI", "SF Pro Display", -apple-system, BlinkMacSystemFont,
+    "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue",
+    sans-serif;
+  font-size: 1rem;
+  font-weight: 500;
+  height: 2.5rem;
+  text-align: center;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  gap: 8px;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+
+/* Botón Primario */
+.button-primary {
+  width: 100%;
+  background: var(--primary-color);
+  border: none;
+  color: var(--bg-app);
+}
+
+.button-primary:hover,
+.button-primary:active {
+  box-shadow: var(--box-shadow);
+  transition-duration: 0.1s;
+}
+
+/* Botón Secundario */
+.button-secondary {
+  background-color: transparent;
+  color: var(--primary-color);
+  border: 2px solid var(--primary-color);
+  width: 100%;
+}
+
+.button-secondary:hover {
+  background-color: var(--primary-color);
+  color: var(--bg-app);
+}
+
+.button-secondary:hover .icon {
+  color: var(--bg-app);
+}
+
+.button-secondary:active {
+  color: var(--white);
+  background-color: var(--primary-color);
+}
+
+.button-secondary .icon {
+  color: var(--primary-color);
+}
+
+
+.button-secondary-outline {
+  background-color: transparent;
+  color: var(--bg-app);
+  border: 2px solid var(--bg-app);
+  width: 100%;
+}
+
+.button-secondary-outline:hover {
+  background-color: var(--primary-color);
+  color: var(--bg-app);
+}
+
+.button-secondary-outline:hover .icon {
+  color: var(--bg-app);
+}
+
+.button-secondary-outline:active {
+  color: var(--white);
+  background-color: var(--primary-color);
+}
+
+.button-secondary-outline .icon {
+  color: var(--primary-color);
+}
+
+/* Botón de reset */
+.button-reset {
+  background-color: transparent;
+  width: 100%;
+  border: none;
+}
+.button-reset:hover {
+  background-color: #f0f0f0;
+  color: var(--primary-color);
+}
+
+/* Botón de Éxito */
+.button-success {
+  background-color: #ffffff;
+  color: var(--success-color);
+  border: 2px solid var(--success-color);
+  width: 100%;
+}
+.button-success:hover {
+  background-color: var(--success-color);
+  color: var(--white);
+}
+
+/* Botón de Login */
+.button-login {
+  background: var(--primary-app);
+  color: var(--bg-app);
+  border: 2px solid var(--primary-app);
+  width: 100%;
+  font-weight: 600;
+  font-family: "Inter", -apple-system, BlinkMacSystemFont, sans-serif;
+  height: 56px;
+  font-size: 16px;
+  border-radius: 12px;
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
+  backdrop-filter: blur(10px);
+  box-shadow: 0 4px 12px rgba(200, 242, 97, 0.2),
+    inset 0 1px 0 rgba(255, 255, 255, 0.1);
+}
+.button-login:hover:not(:disabled) {
+  background: var(--primary-app);
+  color: var(--bg-app);
+  transform: translateY(-2px);
+  box-shadow: 0 8px 25px rgba(200, 242, 97, 0.4),
+    0 4px 12px rgba(200, 242, 97, 0.2), inset 0 1px 0 rgba(255, 255, 255, 0.2);
+  border-color: var(--primary-app);
+}
+.button-login:active:not(:disabled) {
+  transform: translateY(0);
+  box-shadow: 0 4px 12px rgba(200, 242, 97, 0.3),
+    inset 0 1px 0 rgba(255, 255, 255, 0.1);
+}
+.button-login:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+  transform: none;
+  box-shadow: none;
+}
+
+/* Botón de Peligro */
+.button-danger {
+  background-color: #ffffff;
+  color: var(--danger-color);
+  border: 2px solid var(--danger-color);
+  width: 100%;
+}
+
+.button-danger:hover {
+  background-color: var(--danger-color);
+  color: var(--white);
+}
+
+/* Botón Deshabilitado */
+.button-disabled {
+  background-color: var(--primary-color);
+  color: var(--disabled-color);
+  border: 2px solid var(--disabled-color);
+  cursor: not-allowed;
+  width: 100%;
+}
+
+.button-disabled .icon {
+  color: var(--disabled-color);
+}
+
+/* Contenedor de botones de radio */
+.radio-button-container {
+  display: inline-flex;
+  align-items: center;
+  cursor: pointer;
+  margin: 0.1rem;
+}
+
+/* Botón de radio */
+.button-radio,
+.button-radio-selected {
+  background-color: #ffffff;
+  color: #333;
+  border: 2px solid #ddd;
+  margin: 10px;
+  border-radius: 50%;
+  width: 17px;
+  height: 17px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.2s ease-in-out;
+  cursor: pointer;
+  box-shadow: none;
+}
+
+.button-radio:hover {
+  background-color: #f1f1f1;
+  border-color: #ccc;
+}
+
+.button-radio-selected {
+  background-color: var(--primary-color);
+  color: #ffffff;
+  border: 2px solid var(--primary-color);
+  box-shadow: 0 0 8px rgba(255, 77, 77, 0.5);
+}
+
+.button-radio-selected:hover {
+  background-color: var(--primary-color);
+}
+
+/* Icono */
+.icon {
+  font-size: 1.2rem;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  line-height: 1;
+  transition: color 0.3s ease;
+}
+
+/* Colores dinámicos para iconos según el tipo de botón */
+.button-primary .icon {
+  color: var(--bg-app);
+}
+
+.button-secondary .icon {
+  color: var(--primary-color);
+}
+
+.button-secondary-outline .icon {
+  color: var(--bg-app);
+}
+
+.button-secondary-outline:hover .icon {
+  color: var(--white);
+}
+
+.button-success .icon {
+  color: var(--success-color);
+}
+
+.button-success:hover .icon {
+  color: var(--white);
+}
+
+.button-danger .icon {
+  color: var(--danger-color);
+}
+
+.button-danger:hover .icon {
+  color: var(--white);
+}
+
+.button-login .icon {
+  color: var(--bg-app);
+}
+
+.button-disabled .icon {
+  color: var(--disabled-color);
+}
+
+.icon-only {
+  height: auto;
+  width: auto;
+  padding: 2px;
+}
+
+.button-create {
+  padding: 8px 16px;
+  font-weight: bold;
+  color: var(--text-primary);
+  background-color: transparent;
+  border: 2px solid var(--third-color, #007bff);
+  margin-bottom: 0.3rem;
+  white-space: nowrap; /* Evita que el texto del botón se rompa */
+  transition: all 0.2s ease-in-out;
+}
+
+.button-create:hover,
+.button-create:active {
+  box-shadow: var(--box-shadow);
+}
+
+/* Responsive Design - Tablet */
+@media (max-width: 1024px) and (min-width: 769px) {
+  .button {
+    font-size: 0.95rem;
+    height: 2.3rem;
+    padding: 0 13px;
+  }
+
+  .icon {
+    font-size: 1.15rem;
+  }
+
+  .button-secondary {
+    padding: 9px 13px;
+  }
+}
+
+/* Responsive Design - Mobile Large (768px) */
+@media (max-width: 768px) {
+  .button {
+    font-size: 0.9rem;
+    height: 2.25rem;
+    padding: 0 12px;
+  }
+
+  .icon {
+    font-size: 1.1rem;
+  }
+
+  .button-secondary {
+    padding: 8px 12px;
+  }
+}
+
+/* Responsive Design - Mobile Medium (640px) */
+@media (max-width: 640px) {
+  .button {
+    font-size: 0.85rem;
+    height: 2.1rem;
+    padding: 0 11px;
+  }
+
+  .icon {
+    font-size: 1.05rem;
+  }
+
+  .button-secondary {
+    padding: 7px 11px;
+  }
+}
+
+/* Responsive Design - Mobile Small (480px) */
+@media (max-width: 480px) {
+  .button {
+    font-size: 0.8rem;
+    height: 2rem;
+    padding: 0 10px;
+  }
+
+  .icon {
+    font-size: 1rem;
+  }
+
+  .button-secondary {
+    padding: 6px 10px;
+  }
+
+  /* Botón de login específico para móviles */
+  .button-login {
+    height: 48px;
+    font-size: 14px;
+    border-radius: 10px;
+  }
+}
+
+/* Responsive Design - Mobile Extra Small (360px) */
+@media (max-width: 360px) {
+  .button {
+    font-size: 0.75rem;
+    height: 1.9rem;
+    padding: 0 8px;
+  }
+
+  .icon {
+    font-size: 0.95rem;
+  }
+
+  .button-secondary {
+    padding: 5px 8px;
+  }
+
+  /* Botón de login específico para móviles extra pequeños */
+  .button-login {
+    height: 44px;
+    font-size: 13px;
+    border-radius: 8px;
+  }
+}
+
+/* Responsive Design - Mobile Ultra Small (320px) */
+@media (max-width: 320px) {
+  .button {
+    font-size: 0.7rem;
+    height: 1.8rem;
+    padding: 0 6px;
+  }
+
+  .icon {
+    font-size: 0.9rem;
+  }
+
+  .button-secondary {
+    padding: 4px 6px;
+  }
+
+  /* Botón de login específico para móviles ultra pequeños */
+  .button-login {
+    height: 40px;
+    font-size: 12px;
+    border-radius: 6px;
+  }
+}
